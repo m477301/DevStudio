@@ -1,6 +1,6 @@
 const WINDOW_SIZE = 500;
 var balls = [];
-var numberBalls = 5;
+var numberBalls = 3;
 
 function setup() {
  createCanvas(WINDOW_SIZE, WINDOW_SIZE);
