@@ -16,3 +16,14 @@ function draw() {
     balls[i].draw();
   }
 }
+
+function keyPressed() {
+  if(key === ' ') {
+    balls = []
+    for(let i = 0; i < numberBalls; i++) {
+      ball = new Ball()
+      balls.push(ball)
+    }
+  }
+}
+
